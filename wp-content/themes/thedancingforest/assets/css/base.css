@@ -1,0 +1,381 @@
+@font-face {
+	font-family: 'OzHandicraftBTRoman';
+	src: url('/wp-content/themes/thedancingforest/assets/type/oz_handicraft_bt-webfont.eot');
+	src: local('☺'), url('/wp-content/themes/thedancingforest/assets/type/oz_handicraft_bt-webfont.woff') format('woff'), url('/wp-content/themes/thedancingforest/assets/type/oz_handicraft_bt-webfont.ttf') format('truetype'), url('/wp-content/themes/thedancingforest/assets/type/oz_handicraft_bt-webfont.svg#webfontEQpDypni') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Helpers ---------------------------------------------- */
+
+div.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+hr {
+	display: none;
+}
+
+
+/* Defaults ------------------------------------------ */
+
+body {
+	background: #312821;
+	color: #4a4a4a;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+input,
+select,
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+h2 {
+	position: relative;
+	left: -2px;
+	margin-bottom: 0.5em;
+	color: #88503c;
+	font-size: 5.2em;
+	line-height: 1;
+	font-family: OzHandicraftBTRoman, Georgia, Times, serif;
+	font-weight: normal;
+}
+
+h3 {
+	margin: 1.714em 0 0.5em 0;
+	font-size: 1.6em;
+	line-height: 1.333;
+	color: #88503c;
+}
+
+div.home-intro {
+	margin-bottom: 3em;
+}
+
+div.home-intro p {
+	font-size: 1.5em;
+}
+
+a {
+	color: #53731c;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+li,
+label,
+p {
+	font-size: 1.4em;
+	line-height: 1.429;
+}
+
+p {
+	margin-bottom: 1.429em;
+	text-align: justify;
+	max-width: 460px;
+}
+
+p label,
+li p,
+li li {
+	font-size: 1em;
+}
+
+blockquote {
+	font-family: Georgia, Times, serif;
+	background: url(/wp-content/themes/thedancingforest/assets/images/quote.png) no-repeat right bottom;
+	padding-bottom: 60px;
+}
+
+.home blockquote {
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+	background: none;
+	margin-bottom: 0.5em;
+}
+
+blockquote p {
+	text-align: center;
+	margin-bottom: 0.286em;
+	padding-top: 60px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/quote.png) no-repeat left top;
+	color: #8a513e;
+	font-size: 1.4em;
+	line-height: 1.143;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.home blockquote p {
+	text-align: left;
+	font-style: normal;
+	font-size: 1.2em;
+	line-height: 1.333;
+	background: none;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+
+cite {
+	display: block;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1.333;
+	color: #8a513e;
+}
+
+.home cite {
+	color: #333333;
+	text-align: left;
+}
+
+ul,
+ol {
+	margin-bottom: 2.4em;
+}
+
+li {
+	padding-left: 28px;
+	margin: 0 0 0.5em 0;
+	background: url(/wp-content/themes/thedancingforest/assets/images/bullet.png) no-repeat left 4px;
+	font-size: 1.4em;
+	line-height: 1.333;
+}
+
+li li,
+li p {
+	font-size: 1em;
+}
+
+li h3 {
+	position: relative;
+	left: -1px;
+	margin: 0 0 0.5em 0;
+	font-size: 1.083em;
+}
+
+#content-primary img {
+	display: block;
+	border: 4px solid #ffffff;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+	-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.9);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#content-primary a:hover img,
+#content-primary a:focus img {
+	border-color: #F3FE71;
+}
+
+img.attachment-medium {
+	margin-bottom: 1.4em;
+}
+
+p.video {
+	width: 402px;
+	height: 226px;
+	margin: 0;
+	font-size: 1.6em;
+	line-height: 1;
+	background: url(/wp-content/themes/thedancingforest/assets/images/trailer.jpg) no-repeat 0 0;
+}
+
+p.video a {
+	display: block;
+	width: 402px;
+	height: 76px;
+	margin: 0;
+	padding: 150px 0 0 0;
+	color: #79756a;
+	text-decoration: none;
+	text-align: center;
+}
+
+p.video a:focus,
+p.video a:hover {
+	text-decoration: underline;
+}
+
+form {
+	width: 448px;
+	float: left;
+	background: #f3edde;
+	border: 1px solid #d9d3c5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 2.4em;
+}
+
+form input,
+form textarea,
+form select {
+	padding: 3px;
+	border: 1px solid #A5ACB2;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+form input.validation-failed,
+form textarea.validation-failed,
+form select.validation-failed {
+	border-color: #cc3300;
+}
+
+form div.field {
+	float: left;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+
+form div.field input,
+form div.field select,
+form div.field textarea {
+	float: right;
+	font-size: 1.2em;
+	line-height: 1.333;
+	width: 290px;
+	margin: 0;
+}
+
+form div.field input#pp-quantity {
+	width: 30px;
+	margin-right: 260px
+}
+
+form div.field input#pp-zip {
+	width: 80px;
+	margin-right: 210px
+}
+
+form div.field select {
+	width: 298px;
+}
+
+form div.field span.label,
+form div.field label {
+	padding: 4px 0 0 0;
+	float: left;
+	font-size: 1.4em;
+	line-height: 1.143;
+	font-weight: normal;
+}
+
+form span.value {
+	padding: 4px 0 0 0;
+	font-size: 1.6em;
+	line-height: 1;
+	font-weight: bold;
+	width: 298px;
+	float: right;
+}
+
+form ul.radio {
+	float: right;
+	width: 298px;
+	margin: 0;
+	padding: 3px 0 0 0;
+}
+
+form ul.radio li {
+	background: none;
+	position: relative;
+	padding-left: 20px;
+}
+
+form ul.radio li label {
+	font-size: 1em;
+	width: auto;
+	float: none;
+}
+
+form ul.radio li input {
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	width: auto;
+	float: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+form div.validation-advice {
+	clear: both;
+	float: right;
+	display: inline;
+	margin-top: 3px;
+	width: 294px;
+	font-size: 1.2em;
+	line-height: 1.333;
+	font-weight: bold;
+	color: #cc3300;
+}
+
+form input.image {
+	width: auto;
+	padding: 0;
+	margin: 10px 0 0 150px;
+	border: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+form.donate {
+	float: right;
+	margin: 0 0 10px 20px;
+	width: auto;
+}
+
+form.donate div.field {
+	width: auto;
+	float: none;
+	margin: 0 0 5px 0;
+}
+
+form.donate div.field input,
+form.donate div.field select {
+	margin: 0 5px 0 0;
+	display: inline;
+	width: auto;
+	float: none;
+}
+
+form.donate label {
+	font-weight: bold;
+	margin: 0;
+	float: none;
+	width: auto;
+}
+
+form.donate input.image {
+	margin: 0;
+}
+
+#content-primary img.no-border,
+#content-primary form img {
+	display: inline;
+	border: none;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}

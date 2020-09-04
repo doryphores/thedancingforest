@@ -1,0 +1,172 @@
+ul li a {
+	text-decoration: none;
+}
+
+ul li a:hover,
+ul li a:focus {
+	text-decoration: underline;
+}
+
+
+/* Portraits ---------------------------------------- */
+
+ul.portraits {
+	position: relative;
+	margin-left: -20px;
+	width: 480px;
+}
+
+ul.portraits li {
+	float: left;
+	display: inline;
+	width: 220px;
+	background: none;
+	padding: 0;
+	margin: 0 0 1em 20px;
+}
+
+ul.portraits li img {
+	display: block;
+}
+
+ul.portraits li h3 {
+	margin: 0.5em 0 0 0;
+}
+
+
+/* Press downloads ---------------------------------------- */
+
+ul.downloads li {
+	float: left;
+	width: 45%;
+	margin-right: 4%;
+	display: inline;
+	position: relative;
+	padding: 0;
+	min-height: 105px; /* H: lteIE6 - use height instead */
+	background: none;
+	margin-bottom: 1.714em;
+}
+
+ul.downloads li a {
+	display: block;
+	padding-left: 90px;
+}
+
+#content-primary ul.downloads img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 2px solid #999999;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+
+/* Photo gallery ----------------------------- */
+
+.gallery p {
+	margin: 0 0 0 -12px;
+	float: left;
+	display: inline;
+	width: 472px;
+	max-width: 100%;
+	position: relative;
+}
+
+.gallery a {
+	margin: 0 0 12px 12px;
+	float: left;
+	display: inline;
+}
+
+.gallery a img {
+	display: block;
+}
+
+
+/* Accordion ------------------------------------------------ */
+
+.js-enabled .accordion {
+	padding-bottom: 8px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/accordion-bg.png) no-repeat left bottom; /* H: lteIE6 - remove background */
+}
+
+.js-enabled .accordion-wrapper {
+	border: 1px solid #6f5926;
+	border-bottom: none;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	height: 1%;
+}
+
+.js-enabled .accordion h3 {
+	background: #f3edde url(/wp-content/themes/thedancingforest/assets/images/open-close.png) no-repeat right 10px;
+	color: #4a3c32;
+	padding: 8px;
+	margin: 0;
+	border-bottom: 1px solid #b2a686;
+	font-size: 1.4em;
+	line-height: 1;
+	cursor: pointer;
+	position: relative;
+	height: 1%;
+}
+
+.js-enabled .accordion .section:first-child h3 {
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.js-enabled .accordion .odd h3 {
+	background-color: #d9d3c5;
+}
+
+.js-enabled .accordion h3.open {
+	background-color: #312821;
+	background-position: right -50px;
+	color: #f3edde;
+}
+
+.js-enabled .accordion h3 a {
+	position: absolute;
+	right: 20px;
+	top: 8px;
+	font-size: 0.857em;
+	font-weight: normal;
+	text-decoration: none;
+	color: #4a3c32;
+}
+
+.js-enabled .accordion h3 a:hover,
+.js-enabled .accordion h3 a:focus,
+.js-enabled .accordion h3:hover a {
+	text-decoration: underline;
+}
+
+.js-enabled .accordion h3.open a {
+	color: #f3edde;
+}
+
+.js-enabled .accordion .section-content {
+	overflow: hidden; /* H: lteIE6 - use height 1% instead */
+	padding: 12px 12px 0 12px;
+	background: #6f5926;
+	color: #fffcf3;
+}
+
+.js-enabled .accordion p {
+	text-align: left;
+}

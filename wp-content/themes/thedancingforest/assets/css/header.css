@@ -1,0 +1,89 @@
+#header {
+	height: 307px;
+	margin-top: -8px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/header.jpg) no-repeat left top;
+}
+
+.quick-news #header {
+	background: url(/wp-content/themes/thedancingforest/assets/images/header-home.jpg) no-repeat left top;
+}
+
+#header h1 {
+	position: absolute;
+	z-index: 3;
+	top: 8px; /* H: lteIE6 - adjust for IE */
+	left: 4px;
+	width: 349px;
+	height: 91px;
+}
+
+.fr #header h1 {
+	width: 276px;
+}
+
+#header h1 a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -999em;
+	overflow: hidden;
+	background: url(/wp-content/themes/thedancingforest/assets/images/title.png) no-repeat left top; /* H: lteIE6 - use alpha filter */
+}
+
+.fr #header h1 a {
+	background-image: url(/wp-content/themes/thedancingforest/assets/images/title-fr.png);
+}
+
+#lang_sel_list {
+	position: absolute;
+	z-index: 2;
+	top: -25px;
+	right: 20px;
+}
+
+#lang_sel_list ul {
+	background: #906D2F;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 3px;
+	-moz-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+	float: left;
+	height: 1%;
+	margin: 0;
+}
+
+#lang_sel_list li {
+	float: left;
+	height: 1%;
+	margin: 0;
+	padding: 0;
+	background: none;
+	font-size: 1.2em;
+	line-height: 1.333;
+}
+
+#lang_sel_list li a {
+	float: left;
+	padding: 4px 7px 6px 25px;
+	color: #ffffff;
+	text-decoration: none;
+	position: relative;
+	font-weight: bold;
+}
+
+#lang_sel_list li a:focus,
+#lang_sel_list li a:hover {
+	color: #f3ff71;
+}
+
+#lang_sel_list li a.lang_sel_other {
+	font-weight: normal;
+}
+
+#lang_sel_list li a img {
+	position: absolute;
+	left: 7px;
+	top: 7px;
+}

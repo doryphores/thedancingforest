@@ -1,0 +1,16 @@
+/*
+Theme Name: The Dancing Forest
+Version: 1.0
+Author: Martin Laine and Roberto Marras
+Description: Custom theme for The Dancing Forest website
+*/
+
+@import url('assets/css/-reset.css');
+@import url('assets/css/base.css');
+@import url('assets/css/layout.css');
+@import url('assets/css/navigation.css');
+@import url('assets/css/header.css');
+@import url('assets/css/footer.css');
+@import url('assets/css/listings.css');
+@import url('assets/css/milkbox.css');
+@import url('assets/css/videobox.css');

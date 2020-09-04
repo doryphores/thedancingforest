@@ -1,0 +1,53 @@
+#footer {
+	width: 100%;
+	clear: both;
+	float: left;
+}
+
+#footer-content {
+	width: 900px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 10px 0 40px 16px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/quick-info.png) no-repeat 14px 10px;
+}
+
+.fr #footer-content {
+	background-image: url(/wp-content/themes/thedancingforest/assets/images/quick-info-fr.png);
+}
+
+#footer-content p {
+	padding-top: 50px;
+	float: left;
+	width: 212px;
+	margin: 0;
+	color: #bdbdbd;
+	font-size: 1.1em;
+	line-height: 1.455;
+	text-align: left;
+}
+
+#footer-content strong,
+#footer-content a {
+	color: #a3ab4c;
+}
+
+#footer h2 {
+	position: absolute;
+	left: -999em;
+}
+
+#footer .awards {
+	width: 659px;
+	height: 157px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/awards.png) no-repeat 0 0;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+#footer .awards li {
+	position: absolute;
+	left: -999em;
+}

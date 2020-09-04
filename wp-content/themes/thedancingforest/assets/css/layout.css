@@ -1,0 +1,121 @@
+/* Wrappers ----------------------------------------------- */
+
+#gradient {
+	background: #916e2e url(/wp-content/themes/thedancingforest/assets/images/bg-gradient.jpg) repeat-x left top;
+}
+
+#texture-top {
+	background: url(/wp-content/themes/thedancingforest/assets/images/top-texture.jpg) no-repeat center top;
+}
+
+#texture-bottom {
+	background: url(/wp-content/themes/thedancingforest/assets/images/texture-bottom.png) no-repeat center bottom; /* H: lteIE6 - disable in IE6 */
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 926px;
+	padding: 35px 0 0 0;
+	background: url(/wp-content/themes/thedancingforest/assets/images/frame-top.png) no-repeat left top;
+	position: relative;
+}
+
+#shadow {
+	float: left;
+	width: 916px;
+	padding: 0 5px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/frame-slice.png) repeat-y left top;
+}
+
+#inner-wrapper {
+	float: left;
+	width: 100%;
+	position: relative;
+	background: #fffcf3;
+}
+
+#content-wrapper {
+	position: relative;
+	float: left;
+	width: 100%;
+	background: url(/wp-content/themes/thedancingforest/assets/images/body-texture-top.jpg) no-repeat left top;
+}
+
+
+/* Content area ---------------------------------------- */
+
+#quick-news {
+	width: 620px;
+	padding: 0 6px 8px 282px;
+	margin: 0 4px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/quick-news.jpg) no-repeat 0 0;
+}
+
+.fr #quick-news {
+	width: 580px;
+	padding-left: 322px;
+	background-image: url(/wp-content/themes/thedancingforest/assets/images/quick-news-fr.jpg);
+}
+
+#quick-news h2 {
+	position: absolute;
+	left: -999em;
+}
+
+#quick-news p {
+	color: #fbf7eb;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.25;
+	margin: 0;
+}
+
+#quick-news p a {
+	color: #fbf7eb;
+	margin-left: 1em;
+}
+
+#content {
+	min-height: 350px; /* H: lteIE6 - use height instead */
+	padding: 5px 0 35px 196px;
+	float: right;
+	width: 720px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/body-texture-bottom.jpg) no-repeat left bottom;
+}
+
+.home #content {
+	padding: 0 0 35px 182px;
+	width: 734px;
+}
+
+#content-primary {
+	float: left;
+	width: 470px;
+	padding: 10px 0 0 0;
+}
+
+.home #content-primary {
+	width: 412px;
+	padding-top: 74px;
+}
+
+.quick-news #content-primary {
+	padding-top: 36px;
+}
+
+#content-secondary {
+	float: right;
+	width: 170px;
+	padding: 80px 30px 0 30px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/content-divider.png) no-repeat left 51px;
+}
+
+.home #content-secondary {
+	background: none;
+	width: 302px;
+	padding: 74px 20px 0 0;
+}
+
+.quick-news #content-secondary {
+	padding-top: 36px;
+}

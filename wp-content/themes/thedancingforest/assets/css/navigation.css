@@ -1,0 +1,173 @@
+#nav {
+	position: absolute;
+	left: 20px;
+	top: -200px;
+	width: 161px;
+	padding: 51px 0 92px 0;
+}
+
+#nav-wrapper {
+	position: relative;
+	float: left;
+	width: 100%;
+	background: url(/wp-content/themes/thedancingforest/assets/images/nav-slice.png) repeat-y left top;
+}
+
+#nav h2 {
+	text-indent: -999em;
+	height: 51px;
+	position: relative;
+	top: -51px;
+	left: 0;
+	background: url(/wp-content/themes/thedancingforest/assets/images/nav-top.png) no-repeat left top;
+	margin: 0;
+}
+
+#list-wrapper {
+	position: relative;
+	bottom: -92px;
+	margin-top: -275px;
+	z-index: 2;
+	padding: 0 12px 25px 5px;
+}
+
+#nav ul {
+	position: relative;
+	top: 92px;
+	min-height: 220px; /* H: lteIE6 - use height instead */
+	margin: 0;
+}
+
+#nav ul ul {
+	position: static;
+	min-height: 0; /* H: lteIE6 - use height instead */
+	margin-left: 10px;
+	display: none;
+	padding-bottom: 5px;
+}
+
+#nav ul li {
+	font-size: 1.2em;
+	line-height: 1;
+	border-bottom: 1px solid #c9ba94;
+	margin: 0;
+	padding: 0;
+	background: none;
+	height: 1%;
+}
+
+#nav ul ul li {
+	font-size: 1em;
+	border-bottom: none;
+}
+
+#nav ul li.current_page_item ul,
+#nav ul li.current_page_parent ul {
+	display: block;
+}
+
+#nav ul a {
+	display: block;
+	height: 1%;
+	padding: 3px 0 5px 12px;
+	color: #ffffff;
+	background: url(/wp-content/themes/thedancingforest/assets/images/nav-bullets.png) no-repeat 0 6px;
+	text-decoration: none;
+}
+
+#nav ul a:hover,
+#nav ul a:focus {
+	color: #f3ff71;
+	background-position: -150px 6px;
+}
+
+#nav ul li.current_page_item>a {
+	color: #f3ff71;
+	background-position: -150px 6px;
+	font-weight: bold;
+}
+
+#nav ul li.current_page_parent>a {
+	color: #f3ff71;
+	background-position: -300px 6px;
+}
+
+#nav-bottom {
+	height: 92px;
+	bottom: -92px;
+	position: relative;
+	z-index: 1;
+	background: url(/wp-content/themes/thedancingforest/assets/images/nav-bottom.png) no-repeat left bottom; /* H: lteIE6 - use alpha filter */
+}
+
+
+/* Share badges -------------------------------------------- */
+
+#nav .share {
+	padding: 100px 0 15px 0;
+	float: left;
+	background: url(/wp-content/themes/thedancingforest/assets/images/share-divider.png) no-repeat left bottom;
+}
+
+#nav .share ul {
+	list-style-type: none;
+	margin-left: -9px;
+	position: relative;
+	width: 164px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/share.png) no-repeat right top;
+	min-height: 0;
+	height: auto;
+	top: 0;
+	float: left;
+}
+
+#nav .share li {
+	float: left;
+	display: inline;
+	margin-left: 9px;
+	border: none;
+}
+
+#nav .share li a {
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	float: left;
+	text-indent: -999em;
+	padding: 0;
+	background: none;
+}
+
+
+/* Call to action badges ------------------------------------ */
+
+#call-to-action {
+	float: left;
+}
+
+#call-to-action p {
+	margin: 14px 0 0 0;
+}
+
+#call-to-action p a {
+	text-indent: -999em;
+	display: block;
+	width: 155px;
+	height: 75px;
+	background-repeat: none;
+	background-position: 0 0;
+	background-image: url(/wp-content/themes/thedancingforest/assets/images/call-to-action.png);
+	overflow: hidden;
+}
+
+#call-to-action p.action a {
+	background-position: 0 -75px;;
+}
+
+.fr #call-to-action p.dvd a {
+	background-position: -155px 0;
+}
+
+.fr #call-to-action p.action a {
+	background-position: -155px -75px;
+}

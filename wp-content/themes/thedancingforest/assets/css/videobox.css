@@ -1,0 +1,35 @@
+.vBox-overlay {
+	background: #000;
+	position: fixed !important; /* H: lteIE6 - use absolute instead */
+	left: 0;
+	z-index: 100;
+	cursor: pointer;
+}
+
+.vBox-box {
+	position: fixed; /* H: lteIE6 - use absolute instead */
+	z-index: 101;
+	left: 50%;
+	top: 50px;
+	background-color: #000000;
+	border: 10px solid #333333;
+	padding: 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+}
+
+.vBox-close {
+	position: absolute;
+	right: -20px;
+	top: -20px;
+	width: 23px;
+	height: 23px;
+	background: url(/wp-content/themes/thedancingforest/assets/images/close.png) no-repeat 0 0;
+	overflow: hidden;
+	text-indent: -999em;
+	text-decoration: none;
+}
